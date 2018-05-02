@@ -1,0 +1,14 @@
+{
+  "autoload": {
+    "classmap": [
+      "src/JsonHandler.php",
+      "src/Nasa/Nasa.php",
+      "src/Nasa/NasaInterface.php"
+    ]
+  },
+  "require": {
+    "bramus/router": "~1.3",
+    "php-curl-class/php-curl-class": "@dev",
+    "icanboogie/storage": "^3.0"
+  }
+}
